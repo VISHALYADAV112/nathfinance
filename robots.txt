@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vishalyadav112.github.io/nathfinance/sitemap.xml
