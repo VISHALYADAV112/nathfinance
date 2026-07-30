@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   output: 'export',
-  basePath: '/nathfinance',
   images: { unoptimized: true }
 };
 
