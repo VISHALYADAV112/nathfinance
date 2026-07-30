@@ -18,7 +18,7 @@ const journeys = [
   { key:'tax', title:'Complete my taxes', sub:'File accurately and on time', icon:FileText, slug:'itr-filing', tone:'cyan' },
 ];
 
-const reveal = { hidden:{opacity:0,y:28}, show:{opacity:1,y:0,transition:{duration:.7,ease:[.22,1,.36,1]}} };
+const reveal = { hidden:{opacity:0,y:28}, show:{opacity:1,y:0,transition:{duration:.7,ease:[.22,1,.36,1] as const}} };
 
 export function Home({locale}:{locale:Locale}){
   const t=copy[locale];
